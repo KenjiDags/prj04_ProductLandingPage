@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 0px 20px;
+    text-align: center;
+    position: fixed;
+    display: flex;
+  }
+
+  .logo > P{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+  }
+ 
+  nav {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 8px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  *{
+    margin: 10px;
+  }
+
+  main{
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 15%;
+  }
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 8px auto;
+    }
+  }
